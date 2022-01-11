@@ -11,7 +11,7 @@ We will work with the California housing dataset and perform a linear regression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.datasets import california_housing
+from sklearn.datasets import fetch_california_housing
 from sklearn.metrics import mean_squared_error
 ```
 
@@ -21,7 +21,7 @@ Scikit-learn comes with wide variety of datasets for regression, classification 
 
 
 ```python
-housing_data = california_housing.fetch_california_housing()
+housing_data = fetch_california_housing()
 ```
 
 
