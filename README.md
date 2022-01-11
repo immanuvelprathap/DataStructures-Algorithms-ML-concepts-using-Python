@@ -69,6 +69,8 @@ Batch gradient descent is the most common form of gradient descent described in 
 
 # Stochastic Gradient Descent for Machine Learning :
 
+Please find the files here: https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent
+
 Gradient descent can be slow to run on very large datasets.
 
 Because one iteration of the gradient descent algorithm requires a prediction for each instance in the training dataset, it can take a long time when you have many millions of instances.
