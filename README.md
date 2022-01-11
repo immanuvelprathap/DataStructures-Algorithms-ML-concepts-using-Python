@@ -1,31 +1,31 @@
 # DataStructures-Algorithms-ML-concepts-using-Python
 Here, you will find the explanation of Data Structures and Algorithms for Machine Learning Models using Python.
 
-What is Gradient Descent?
+# What is Gradient Descent?
 
  - Iterative Algorithm (An iterative algorithm executes steps in iterations. It aims to find successive approximations in sequence to reach a solution. They are most commonly used in linear programs where large numbers of variables are involved.) https://web.stanford.edu/group/sisl/k12/optimization/MO-unit1-pdfs/1.8iterativeloops.pdf
  
-Objective : Gradient descent algorithm is an iterative process that takes us to the minimum of a function.
+## Objective : Gradient descent algorithm is an iterative process that takes us to the minimum of a function.
  
-Mathematically, 
+## Mathematically, 
  - used to find a minimum of a differentiable function. https://en.wikipedia.org/wiki/Differentiable_function
  
-Why do we need this in ML? 
+## Why do we need this in ML? 
  - to minimize the "Cost Function" and to find the corresponding "OPTIMAL PARAMETERS' (Optimization)!
 
-What is a Cost Function then?
+## What is a Cost Function then?
  - A function to measure the deviation of our Model's Prediction from the ground truth!
  
-Which ML models implement Gradient Descent?
+## Which ML models implement Gradient Descent?
  - Linear Regression Models (Simple, Multiple)
  - Logistic Regression Models
 
-Types of Gradient Descent in ML?
+## Types of Gradient Descent in ML?
  - Batch Gradient Descent
  - Stochastic Gradient Descent
  
  
-Gradient Descent Procedure:
+# Gradient Descent Procedure:
  
 The procedure starts off with initial values for the coefficient or coefficients for the function. These could be 0.0 or a small random value.
 
@@ -51,7 +51,7 @@ This process is repeated until the cost of the coefficients (cost) is 0.0 or clo
 
 You can see how simple gradient descent is. It does require you to know the gradient of your cost function or the function you are optimizing, but besides that, it’s very straightforward. Next we will see how we can use this in machine learning algorithms.
 
-Batch Gradient Descent for Machine Learning:
+# Batch Gradient Descent for Machine Learning:
 
 The goal of all supervised machine learning algorithms is to best estimate a target function (f) that maps input data (X) onto output variables (Y). This describes all classification and regression problems.
 
@@ -67,7 +67,7 @@ The cost is calculated for a machine learning algorithm over the entire training
 
 Batch gradient descent is the most common form of gradient descent described in machine learning.
 
-Stochastic Gradient Descent for Machine Learning :
+# Stochastic Gradient Descent for Machine Learning :
 
 Gradient descent can be slow to run on very large datasets.
 
@@ -83,7 +83,7 @@ The update procedure for the coefficients is the same as that above, except the 
 
 The learning can be much faster with stochastic gradient descent for very large training datasets and often you only need a small number of passes through the dataset to reach a good or good enough set of coefficients, e.g. 1-to-10 passes through the dataset.
 
-Tips for Gradient Descent :
+# Tips for Gradient Descent :
 
 This section lists some tips and tricks for getting the most out of the gradient descent algorithm for machine learning.
 
@@ -94,7 +94,7 @@ Few Passes: Stochastic gradient descent often does not need more than 1-to-10 pa
 Plot Mean Cost: The updates for each training dataset instance can result in a noisy plot of cost over time when using stochastic gradient descent. Taking the average over 10, 100, or 1000 updates can give you a better idea of the learning trend for the algorithm.
 
 
-Summary:
+# Summary:
 
 In this file you discovered gradient descent for machine learning. You learned that:
 
@@ -104,4 +104,3 @@ Batch gradient descent refers to calculating the derivative from all training da
 Stochastic gradient descent refers to calculating the derivative from each training data instance and calculating the update immediately.
 
 Example of a Real-world application: Agile (SDLC) is a pretty well-known term in the software development process. The basic idea behind it is simple: build something quickly, ➡️ get it out there, ➡️ get some feedback ➡️ make changes depending upon the feedback ➡️ repeat the process. The goal is to get the product near the user and guide you with feedback to obtain the best possible product with the least error. Also, the steps taken for improvement need to be small and should constantly involve the user. In a way, an Agile software development process involves rapid iterations. The idea of — start with a solution as soon as possible, measure and iterate as frequently as possible, is Gradient descent under the hood.
-
