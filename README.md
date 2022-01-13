@@ -565,7 +565,7 @@ plot_regression(X, y, y_pred, title="Linear Regression")
 
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_35_1.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_35_1.png)
 
 
 Result of our model is the regression line. Just by looking at the graph we can tell that data points go well above and beyond our line, making predictions approximate.
@@ -747,11 +747,11 @@ plt.show()
 
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_73_1.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_73_1.png)
 
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_73_2.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_73_2.png)
 
 
 ## Stochastic Gradient Descent
@@ -814,11 +814,11 @@ plt.show()
 
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_78_1.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_78_1.png)
 
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_78_2.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_78_2.png)
 
 
 We can observe how regression line went up and down to find right parameters and MSE not as smooth as regular gradient descent.
