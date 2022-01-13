@@ -476,7 +476,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/tree/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_22_0.png)
+![png](https://github.com/immanuvelprathap/DataStructures-Algorithms-ML-concepts-using-Python/blob/master/Stochastic_Gradient_Descent/images/Gradient%20Descent_22_0.png)
 
 
 Data is quite sparse, but we can still observe some linearity.
